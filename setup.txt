@@ -1,0 +1,11 @@
+adb server running to accept commands that will be sent to phone
+Run the following to make sure device shows up 
+adb devices
+
+scrcpy to view phone 
+
+python script to accept http requests and run adb commands to click on the correct buttons
+
+javascript "extension" (really just copy and paste into dev tools) to see when new chats happen and send http request with selected option
+
+MVP only allows the remote user to select their role and a word, does not allow pausing/stopping, if a reset is needed the physical users need to do it. 
